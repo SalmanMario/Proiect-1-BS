@@ -1,0 +1,46 @@
+.welcome {
+  height: 50vh;
+}
+
+.person img {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  margin-bottom: -75px;
+  background-color: white;
+  border: 1px solid #ddd;
+  object-fit: cover;
+}
+
+.person {
+  margin-top: calc(2 * var(--spacing-xl));
+  text-align: center;
+  position: relative;
+  padding: var(--spacing-small);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  min-height: 350px;
+}
+
+.person p {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 13;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.card .card-body {
+  padding: 70px 0 50px;
+  text-align: center;
+  max-height: 450px;
+}
+
+.crew {
+  padding-bottom: 70px;
+}
