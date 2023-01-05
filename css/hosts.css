@@ -1,0 +1,27 @@
+.welcome {
+  height: 50vh;
+}
+
+.btn {
+  width: 25%;
+  margin: 0px var(--spacing-medium) var(--spacing-medium);
+}
+
+.card-body h3 {
+  color: var(--orange);
+}
+
+.card img {
+  border: 4px solid var(--text-light);
+}
+
+span .fa-utensils {
+  padding-left: var(--spacing-small);
+}
+
+img {
+  height: 250px;
+  width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}

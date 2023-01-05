@@ -1,0 +1,84 @@
+:root {
+  --text-light: #eaeaea;
+
+  --spacing-xl: 3rem;
+  --spacing-large: 1.5rem;
+  --spacing-medium: 1rem;
+  --spacing-small: 0.5rem;
+  --spacing-tiny: 0.25rem;
+
+  --dark-red: #bb2528;
+  --red: #ea4630;
+  --orange: #f8b229;
+  --dark-green: #165b33;
+  --green: #146b3a;
+}
+
+.container .nav-link {
+  color: white;
+}
+
+.container .navbar-brand {
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right, var(--dark-red), var(--orange), var(--red)) 2;
+}
+
+.container .navbar-brand {
+  font-size: 1.5rem;
+}
+
+.christmas-bg {
+  margin: 0px;
+  background-image: url("../img/gameawards.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center top;
+}
+
+.welcome {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.nav-item {
+  padding: 0 var(--spacing-medium);
+}
+
+.bar {
+  background-color: var(--dark-red);
+  height: 0.25rem;
+  border-radius: 0.625rem;
+  margin-bottom: var(--spacing-tiny);
+}
+
+footer {
+  background-color: var(--dark-red);
+  color: var(--text-light);
+}
+
+.container .navbar-brand:hover {
+  color: var(--red);
+}
+
+.nav-item a:hover {
+  color: var(--red);
+}
+
+.card-body span {
+  color: black;
+}
